@@ -1,0 +1,5 @@
+{
+  "*": "npx prettier --write --ignore-unknown",
+  "*.{ts, tsx}": "npx eslint --fix",
+  "*.{png,jpg,jpeg,gif,svg}": "npx imagemin"
+}
